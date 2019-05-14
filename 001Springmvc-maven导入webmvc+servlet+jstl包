@@ -29,3 +29,8 @@
 		    <artifactId>jstl-impl</artifactId>
 		    <version>1.2</version>
 		</dependency>  
+
+
+	      在jsp页面中使用jstl的时候需要引入jstl的标签库 :
+	      <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+	      这个地方一定不要写错了哈！
